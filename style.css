@@ -1,0 +1,67 @@
+:root {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+li {
+    margin: 20px 0;
+}
+
+
+th {
+    background-color: #eee;
+    font-weight: bold;
+    width: 30%;
+}
+
+td {
+    width: 40%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    footer {
+        width: 100%;
+    }
+}
